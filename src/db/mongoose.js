@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 
-const connectionURL = "mongodb://127.0.0.1:27017";
+const connectionURL = "mongodb+srv://antonchykvladyslav:gbY8WOPNtNJmGymT@cluster0.3nt7jvy.mongodb.net/task-manager-api?retryWrites=true&w=majority&appName=Cluster0";
 const databaseName = "task-manager-api";
-mongoose.connect(process.env.MONGODB_URL)
+mongoose.connect(connectionURL)
