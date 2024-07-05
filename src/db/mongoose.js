@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const connectionURL = "mongodb+srv://antonchykvladyslav:gbY8WOPNtNJmGymT@cluster0.3nt7jvy.mongodb.net/task-manager-api?retryWrites=true&w=majority&appName=Cluster0";
+const connectionURL = "mongodb+srv://antonchykvladyslav:hGo1p1txdbf8h4zu@chatdata.lt1qd1g.mongodb.net/?retryWrites=true&w=majority&appName=ChatData";
 
 mongoose.connect(connectionURL, {
   useNewUrlParser: true,
