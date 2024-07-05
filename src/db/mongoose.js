@@ -4,9 +4,7 @@ const connectionURL = "mongodb+srv://antonchykvladyslav:gbY8WOPNtNJmGymT@cluster
 
 mongoose.connect(connectionURL, {
   useNewUrlParser: true,
-  useUnifiedTopology: true,
-  ssl: true,
-  tlsInsecure: true,
+  useUnifiedTopology: true
 })
 .then(() => {
   console.log('Successfully connected to MongoDB');
